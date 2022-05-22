@@ -1,0 +1,58 @@
+body {
+    background-color: #0b0c10;
+    color: #1f2833;
+}
+
+
+/* Form style */
+
+.login-form {
+    margin: auto;
+    max-width: 50%;
+    padding: .5rem;
+    height: 100%;
+}
+
+.login-title {
+    color: #1f2833;
+    margin: auto;
+}
+
+br {
+    color: #0b0c10;
+}
+
+
+/* container */
+
+.container {
+    background-color: #45a29e;
+    padding: 25px;
+    margin: 2% auto 2% auto;
+    border: 1px solid;
+    width: 40%;
+}
+
+
+/* login button */
+
+#login_buttons {
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+.signInBtn,
+.signUpBtn {
+    background-color: #c5c6c7;
+    margin: 10%;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}
+
+.signUpBtn:hover,
+.signInBtn:hover {
+    opacity: 0.8;
+}

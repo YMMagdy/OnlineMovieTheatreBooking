@@ -1,0 +1,104 @@
+body {
+    background-color: #0b0c10;
+    margin: 0%;
+    padding: 0;
+}
+
+p {
+    color: #c5c6c7;
+}
+
+h2 {
+    color: #45a29e;
+}
+
+
+/* description dev */
+
+.part-one {
+    display: flex;
+    margin: 0px 0px 60px 0px;
+    height: 100%;
+}
+
+
+/* movie image */
+
+.description-image {
+    width: 30%;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+
+/* description text dev */
+
+.description {
+    width: 70%;
+    padding-left: 40px;
+}
+
+
+/* embedded youtube video */
+
+iframe {
+    width: 90%;
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* z-index: -1; */
+}
+
+
+/* trailer dev */
+
+.description-trailer {
+    width: 100%;
+    height: 650px;
+    margin: 0% 0%;
+    text-align: center;
+}
+
+
+/* video dev container */
+
+#trailer {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* booking button */
+
+#book {
+    background-color: #45a29e;
+    font-weight: bold;
+    /* border: 1px solid #1f2833; */
+    size: 60px 25px;
+    float: right;
+    margin-left: 50%;
+}
+
+#book:hover {
+    opacity: 0.8;
+    /* background-color: #45a29e;
+    font-weight: bold; */
+    /* border: 1px solid #1f2833; */
+}
+
+
+/* booking button dev */
+
+#booking {
+    width: 90%;
+    padding: 5%;
+}

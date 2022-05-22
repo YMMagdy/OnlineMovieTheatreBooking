@@ -1,0 +1,31 @@
+/* the sliding bar */
+
+.carousel-inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 50%;
+    z-index: -1;
+}
+
+
+/* available movies in the slide bar */
+
+.availableMovies {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-content: center;
+    margin: 25px;
+}
+
+
+/* each poster in the home page */
+
+.poster {
+    width: 250px;
+    height: 300px;
+    padding-bottom: 25px;
+}

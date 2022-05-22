@@ -1,0 +1,105 @@
+body {
+    background-color: #0b0c10;
+}
+
+h2 {
+    color: #45a29e;
+    grid-column: 1/4;
+}
+
+
+/* Seats */
+
+.seats-container {
+    width: 70%;
+    margin: auto;
+    align-self: center;
+}
+
+
+/* buttons div */
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 70%;
+    margin: auto;
+}
+
+
+/* button seats */
+
+.seat {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: #cb2d6f;
+    margin: auto;
+    border: 0.1em solid #0b0c10;
+    border-radius: 0.l2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #191718;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.seat:hover {
+    background-color: #501f3a;
+}
+
+
+/* screen */
+
+#screen {
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    background-color: white;
+    margin-top: 60px;
+    color: #0b0c10;
+    clear: right;
+}
+
+
+/* time selector */
+
+#time-label {
+    display: inline;
+}
+
+.showtimes_container {
+    display: inline;
+    background-color: #45a29e;
+    color: #0b0c10;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    grid-column: 5/6;
+    margin: auto;
+    float: right
+}
+
+
+/* submit button */
+
+.submit {
+    float: right;
+    width: 30%;
+    border-radius: 0.l2em;
+    box-sizing: border-box;
+    background-color: #45a29e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    transition: all 0.2s;
+}
+
+.submit:hover {
+    opacity: 0.8;
+    /* background-color: #c5c6c7; */
+    /* border-color: #66fcf1; */
+}

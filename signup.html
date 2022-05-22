@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="signup.css" lang="text/css">
+    <link rel="stylesheet" href="fonts.css" lang="text/css">
+    <link rel="stylesheet" href="header-footer.css" lang="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <section class="n" style="margin-bottom: 30px;">
+        <ul class="navBarRow">
+            <li class="navBarBlock"><img src="logo.png" class="logo" alt="LOGO"></li>
+            <li class="navBarBlock"><input type="text" class="search" placeholder="Search"></li>
+            <li class="navBarBlock"><a class="navBarBlockA" href="home.html">Home</a></li>
+
+            <li class="navBarBlock"><a class="navBarBlockA" href="home.html#availableMovies">Movies</a></li>
+            <li class="navBarBlock"><a class="navBarBlockA">Find us</a></li>
+            <li class="navBarBlock"><a class="navBarBlockA">About us</a></li>
+            <li class="navBarBlock" id="login1"><a class="navBarBlockA" id="n1" href="login.html">Login</a></li>
+            <li class="navBarBlock" id="signup1"><a class="navBarBlockA" id="n2" href="signup.html">Sign up</a></li>
+        </ul>
+
+    </section>
+    <!-- Sign up container -->
+    <section class="container">
+        <h2>Sign Up</h2>
+        <hr>
+        <!-- First name -->
+        <label for="FirstName"><b>First Name</b></label>
+        <input class="inputField" type="text" placeholder="Enter First Name" name="firstName" id="firstNameInp" required>
+        <!-- Last name -->
+        <label for="LastName"><b>Last Name</b></label>
+        <input class="inputField" type="text" placeholder="Enter Last Name" name="lastName" id="lastNameInp" required>
+        <!-- Email -->
+        <label for="Email"><b>Email</b></label>
+        <input class="inputField" type="text" placeholder="Enter Username" name="email" id="emailInp" required>
+        <!-- Password -->
+        <label for="Password"><b>Password</b></label>
+        <input class="inputField" type="password" placeholder="Enter Your Password" name="password" id="passInp" required>
+        <!-- Recheck password -->
+        <label for="RePassword"><b>Confirm Password</b></label>
+        <input class="inputField" type="password" placeholder="Confirm Your Password" name="password" id="passInpConf" required>
+        <!-- credit card  -->
+        <label for="creditcardNumber"><b>Credit Card Number</b></label>
+        <input class="inputField" type="text" maxlength="16" placeholder="Enter Credit Card Number" name="creditcardhash" id="ccInp" required>
+        <!-- credit card pin -->
+        <label for="pinCard"><b>Credit Card Pin</b></label>
+        <input class="inputField" type="password" placeholder="Enter Credit Card Pin" name="pinCard" id="ccInpPin" required>
+
+    </section>
+    <!-- Submit button -->
+    <section>
+        <div>
+            <label id="Failure"></label>
+            <button type="submit" class="signUpBtn" onclick="signupHandler()">Sign Up</button>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section style="margin-top: 120px;">
+        <footer>
+            <h3>About</h3>
+            <ul class="footerText">
+                <li>About us</li>
+                <li>Find us</li>
+                <li>Contact us</li>
+                <br>
+            </ul>
+        </footer>
+    </section>
+
+
+</body>
+
+<script src="signup.js" type="text/javascript"></script>
+
+</html>

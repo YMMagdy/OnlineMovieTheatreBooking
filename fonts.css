@@ -1,0 +1,37 @@
+/* general styling sheet for all the website */
+
+
+/* default fonts and styles */
+
+body {
+    font-family: 'Effra', Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #66fcf1;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+
+/* default for buttons */
+
+button {
+    /* background-color: #45a29e; */
+    font-weight: bold;
+    /* border: 2px solid #66fcf1; */
+    float: right;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+button:hover {
+    /* background-color: #66fcf1; */
+    font-weight: bold;
+    /* border: 1px solid #45a29e; */
+}
+
+h3 {
+    font-weight: bold;
+    padding: 15px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="booking.css" />
+    <link rel="stylesheet" href="header-footer.css" lang="text/css">
+    <!-- including ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Nav Bar-->
+    <section class="n" style="margin-bottom: 60px;">
+        <ul class="navBarRow">
+            <li class="navBarBlock"><img src="logo.png" class="logo" alt="LOGO"></li>
+            <li class="navBarBlock"><input type="text" class="search" placeholder="Search"></li>
+            <li class="navBarBlock"><a class="navBarBlockA" href="home.html">Home</a></li>
+
+            <li class="navBarBlock"><a class="navBarBlockA" href="home.html#availableMovies">Movies</a></li>
+            <li class="navBarBlock"><a class="navBarBlockA">Find us</a></li>
+            <li class="navBarBlock"><a class="navBarBlockA">About us</a></li>
+            <li class="navBarBlock" id="login1"><a class="navBarBlockA" id="n1" href="login.html">Login</a></li>
+            <li class="navBarBlock" id="signup1"><a class="navBarBlockA" id="n2" href="signup.html">Sign up</a></li>
+        </ul>
+
+    </section>
+
+    <h2>Select your seat</h2>
+
+
+    <!-- Seats -->
+    <div class="seats-container">
+        <h2 id="time-label">Choose Your Suitable Time</h2>
+        <!-- Time dropdown menu -->
+        <select id="showtimes_container" class="showtimes_container" name="showtimes" required>
+                <option value="" disabled selected>Time</option>
+                <option value="12:00">12:00</option>
+                <option value="15:00">15:00</option>
+                <option value="18:00">18:00</option>
+                <option value="21:00">21:00</option>
+            </select>
+        <p id="screen">Screen</p>
+        <!-- Seats as buttons -->
+        <div id="buttons">
+
+            <button class="seat" id="A1">A1</button>
+            <button class="seat" id="A2">A2</button>
+            <button class="seat" id="A3">A3</button>
+            <button class="seat" id="A4">A4</button>
+            <button class="seat" id="A5">A5</button>
+            <button class="seat" id="B1">B1</button>
+            <button class="seat" id="B2">B2</button>
+            <button class="seat" id="B3">B3</button>
+            <button class="seat" id="B4">B4</button>
+            <button class="seat" id="B5">B5</button>
+            <button class="seat" id="C1">C1</button>
+            <button class="seat" id="C2">C2</button>
+            <button class="seat" id="C3">C3</button>
+            <button class="seat" id="C4">C4</button>
+            <button class="seat" id="C5">C5</button>
+            <button class="seat" id="D1">D1</button>
+            <button class="seat" id="D2">D2</button>
+            <button class="seat" id="D3">D3</button>
+            <button class="seat" id="D4">D4</button>
+            <button class="seat" id="D5">D5</button>
+            <button class="seat" id="E1">E1</button>
+            <button class="seat" id="E2">E2</button>
+            <button class="seat" id="E3">E3</button>
+            <button class="seat" id="E4">E4</button>
+            <button class="seat" id="E5">E5</button>
+        </div>
+        <!-- Submit button -->
+        <button class="submit" id="submit">Submit</button>
+    </div>
+
+    <!-- Footer -->
+    <section style="margin-top: 120px;">
+        <footer>
+            <h3>About</h3>
+            <ul class="footerText">
+                <li>About us</li>
+                <li>Find us</li>
+                <li>Contact us</li>
+                <br>
+            </ul>
+        </footer>
+    </section>
+    <!-- javascript -->
+    <script src="tickets.js" type="text/javascript"></script>
+</body>
+
+</html>

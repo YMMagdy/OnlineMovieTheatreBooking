@@ -1,0 +1,93 @@
+/* headers in the home page */
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    color: #66fcf1;
+    padding-left: 40%;
+}
+
+
+/* nav bar styles */
+
+
+/* each block(word) in the navbar */
+
+.navBarBlock {
+    display: inline;
+    float: left;
+}
+
+
+/* nav bar section */
+
+.n {
+    margin: 0px;
+    padding: 0%;
+}
+
+
+/* nav bar list */
+
+.navBarRow {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2833;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* all words excluding search and logo */
+
+.navBarBlockA {
+    display: block;
+    color: #c5c6c7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #1f2833;
+    font-weight: bold;
+    margin-right: 10px;
+    float: left;
+}
+
+.navBarBlockA :hover {
+    background-color: #45a29e;
+}
+
+
+/* search */
+
+.search,
+.navBarBlock input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #1f2833;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    margin-right: 100px;
+}
+
+
+/* footer styles */
+
+footer {
+    background-color: white;
+    color: #0b0c10;
+    opacity: 0.4;
+}
+
+.footerText {
+    list-style-type: none;
+}

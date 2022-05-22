@@ -1,0 +1,51 @@
+body {
+    background-color: #0b0c10;
+    color: #1f2833;
+}
+
+
+/* input fields */
+
+.inputField {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #c5c6c7;
+}
+
+.inputField:focus {
+    background-color: #c5c6c7;
+    outline: none;
+    opacity: 0.8;
+}
+
+
+/* sign up buttons */
+
+.signUpBtn {
+    background-color: #c5c6c7;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    float: right;
+}
+
+.signUpBtn:hover {
+    opacity: 0.8;
+}
+
+
+/* form container */
+
+.container {
+    background-color: #45a29e;
+    padding: 25px;
+    margin: 2% auto 2% auto;
+    border: 1px solid;
+    width: 40%;
+}
